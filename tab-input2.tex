@@ -1,0 +1,24 @@
+\begin{tabularx}{\linewidth}{X|c|c|c|c|c}
+\toprule
+\multicolumn{1}{l|}{Information category}		
+& CAST	
+& IF 	
+& SG 	 	
+& SQ
+& S101\\
+\midrule
+Architectural Smells, e.g., (Lippert and Rook 2006, Garcia et al. 2009)		& yes			& yes	& yes	& no	& yes\\
+Code Smells (Fowler 1999, Lanza and Marinescu 2006) 				& no			& yes	& no	& yes	& no\\
+\midrule
+Architecture/Design Metrics, e.g., (Martin 1995) 			& yes			& no	& no	& no	& yes\\
+Code Metrics, e.g., (Chidamber 1994, Lanza 2006)				& yes   		& no    & no    & yes	& yes\\
+\midrule
+Architectural Violations$^\alpha$	& yes			& no	& yes	& no	& no\\
+Coding Rule Violations$^\beta$		& yes   		& no	& no	& yes	& no\\
+ \midrule
+\multicolumn{6}{p{.99\linewidth}}{\footnotesize
+$\alpha$: deviations from a reference architecture, i.e., unallowed dependencies}\\
+\multicolumn{6}{p{.99\linewidth}}{\footnotesize
+$\beta$: detected bad coding practices or excessive values of single metrics (some tools, e.g., SQ, internally refer to the latter as ``smells'')}\\
+\bottomrule 
+\end{tabularx}%
