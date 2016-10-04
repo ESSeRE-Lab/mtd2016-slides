@@ -3,16 +3,17 @@ title:  'Technical Debt Indexes provided by tools: a preliminary discussion'
 author:
     - Francesca Arcelli Fontana
     - Riccardo Roveda
-    - Marco Zanoni
-date: MTD 2016 - 4 Oct 2016, Raleigh, NC, USA
+    - "**Marco Zanoni**"
+date: MTD - 4 Oct 2016, Raleigh
 nocite: |
-  @Lippert2006, @Garcia2009 @Fowler1999, @Lanza2006, @Martin1995, @Chidamber1994
+  @Lippert2006, @Garcia2009 @Fowler1999, @Lanza2005, @Martin1995, @ChidamberK94
 ...
 
 # Tecnical Debt Indexes (TDI)
 
 A single number used to control quality and/or debt.
 *"Any kind of quality index computed by analysis tools"*
+
 > A.k.a. Technical Quality Index, Technical Debt/Severity, Deficit Index
 
 - *Q1* How are the  quality indexes the tools provide exactly computed?
@@ -26,7 +27,7 @@ A single number used to control quality and/or debt.
 
 - inFusion v.1.8.5 (<https://www.intooitus.com/>)[^1] 
 
-- Sonargraph v.8.8.0 (URL!?!?!)
+- Sonargraph v.8.8.0 (<https://www.hello2morrow.com/products/sonargraph>)
 
 - SonarQube v.5.2 (<http://www.sonarqube.org>)
 
@@ -34,7 +35,7 @@ A single number used to control quality and/or debt.
 
 [^1]: its evolution at <http://www.aireviewer.com>
 
-# Other tools (examples, not considered)
+# Other tools (examples)
 
 - Massey Architecture Explorer: Antipatterns Score [@Dietrich2012:ACSC], Tangledness metric [@Shah2012:CSMR];
 
@@ -79,12 +80,12 @@ Observations:
 
 # Q3: Missing features
 
-1. Keeping and Resolution costs (Principle and Interest);
+1. Keeping **and** Resolution costs (Principle and Interest);
 
 2. Information unexploited: **no single piece of information** or analysis is supported by **all** tools;
 
 3. Other existing information sources are not present, e.g., historical information
-
+    - History is used only to track values over time
 
 ----
 
